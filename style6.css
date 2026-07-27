@@ -1,0 +1,19 @@
+.vocab-table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 16px;
+}
+.vocab-table td {
+  padding: 12px 14px;
+  border: 1px solid var(--line);
+  vertical-align: top;
+  width: 50%;
+  min-height: 36px;
+  color: black;
+}
+.vocab-table tr:first-child td {
+  border-top: 2px solid var(--navy);
+}
+.vocab-table tr:nth-child(even) td {
+  background: var(--bg-soft);
+}
